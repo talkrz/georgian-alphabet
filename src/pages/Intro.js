@@ -13,7 +13,7 @@ class Intro extends Component {
           Learn Georgian alphabet!
         </p>
         <div className="Intro-content">
-          <Button text="Start learning" onClick={() => {alert('foo')}} />
+          <Button text="Start learning" onClick={() => {}}/>
         </div>
       </div>
     );

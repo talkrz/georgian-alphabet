@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, hashHistory } from 'react-router'
+import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
@@ -27,5 +27,5 @@ ReactDOM.render(
       <Route path="/intro" component={Intro}/>
     </Router>
   </Provider>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );

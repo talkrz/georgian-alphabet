@@ -8,7 +8,7 @@ class Alphabet extends Component {
       <div className="Alphabet">
         Alphabet
       </div>
-    )
+    );
   }
 }
 

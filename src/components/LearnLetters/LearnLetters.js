@@ -8,7 +8,7 @@ class LearnLetters extends Component {
       <div className="LearnLetters">
         LearnLetters
       </div>
-    )
+    );
   }
 }
 
