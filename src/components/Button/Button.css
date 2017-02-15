@@ -1,0 +1,22 @@
+.Button {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #F28702;
+  color: #fff;
+  min-width: 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 14px;
+  outline: none;
+}
+
+.Button:hover {
+  background-color: #F39F07;
+}
+
+.Button i {
+  margin: 0;
+  padding: 0;
+}

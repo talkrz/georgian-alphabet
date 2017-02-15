@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Intro.css';
+import Button from './../components/Button/Button';
 
 class Intro extends Component {
   render() {
@@ -9,7 +10,7 @@ class Intro extends Component {
           <h2>ქართული დამწერლობა</h2>
         </div>
         <p className="Intro-intro">
-          WIP
+          <Button text="Start learning" onClick={() => {alert('foo')}} />
         </p>
       </div>
     );
