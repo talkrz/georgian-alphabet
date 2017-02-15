@@ -9,9 +9,12 @@ class Intro extends Component {
         <div className="Intro-header">
           <h2>ქართული დამწერლობა</h2>
         </div>
-        <p className="Intro-intro">
-          <Button text="Start learning" onClick={() => {alert('foo')}} />
+        <p className="Intro-subtitle">
+          Learn Georgian alphabet!
         </p>
+        <div className="Intro-content">
+          <Button text="Start learning" onClick={() => {alert('foo')}} />
+        </div>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 .Button {
   display: inline-block;
   vertical-align: middle;
-  background-color: #F28702;
+  background-color: #F39F07;
   color: #fff;
   min-width: 30px;
   border: none;
@@ -13,7 +13,7 @@
 }
 
 .Button:hover {
-  background-color: #F39F07;
+  background-color: #F28702;
 }
 
 .Button i {
