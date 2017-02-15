@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Intro.css';
 
-class App extends Component {
+class Intro extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className="Intro">
+        <div className="Intro-header">
           <h2>ქართული დამწერლობა</h2>
         </div>
-        <p className="App-intro">
+        <p className="Intro-intro">
           WIP
         </p>
       </div>
@@ -16,4 +16,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Intro;

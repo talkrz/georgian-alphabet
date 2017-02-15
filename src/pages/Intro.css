@@ -1,13 +1,13 @@
-.App {
+.Intro {
   text-align: center;
 }
 
-.App-header {
+.Intro-header {
   background-color: #eee;
   height: 70px;
   padding: 20px;
 }
 
-.App-intro {
+.Intro-intro {
   font-size: large;
 }
