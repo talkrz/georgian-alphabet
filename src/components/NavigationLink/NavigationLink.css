@@ -1,0 +1,25 @@
+.NavigationLink {
+  display: inline-block;
+  background-color: #none;
+  color: #444;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 25px;
+  padding: 10px 14px;
+  text-decoration: none;
+  outline: none;
+}
+
+.NavigationLink:hover {
+  border-bottom: solid 4px #000;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+.NavigationLink-alphabet:hover {
+  border-bottom: solid 4px #F39F07;
+}
+
+.NavigationLink-learn-letters:hover {
+  border-bottom: solid 4px #02A2F2;
+}
