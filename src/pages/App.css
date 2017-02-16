@@ -2,7 +2,6 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   color: #444;
 }
 
@@ -20,4 +19,8 @@
   margin-right: 25px;
 
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.App-content {
+  margin-top: 25px;
 }
