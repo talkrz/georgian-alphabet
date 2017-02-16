@@ -10,7 +10,7 @@
   outline: none;
 }
 
-.NavigationLink:hover {
+.NavigationLink:hover, .NavigationLink-active {
   border-bottom: solid 4px #000;
   padding-top: 14px;
   padding-bottom: 10px;
@@ -21,5 +21,13 @@
 }
 
 .NavigationLink-learn-letters:hover {
+  border-bottom: solid 4px #F39F07;
+}
+
+.NavigationLink-alphabet-active {
+  border-bottom: solid 4px #02A2F2;
+}
+
+.NavigationLink-learn-letters-active {
   border-bottom: solid 4px #F39F07;
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import NavigationLink from './../components/NavigationLink/NavigationLink';
 import './App.css';
 
-
 class App extends Component {
   render() {
     return (
@@ -11,11 +10,11 @@ class App extends Component {
           <h2>ქართული დამწერლობა</h2>
           <NavigationLink
             to="/alphabet"
-            text="View alphabet"
+            text="Alphabet"
             type="alphabet"/>
           <NavigationLink
             to="/learn-letters"
-            text="Learn letters"
+            text="Test your knowledge"
             type="learn-letters"/>
         </div>
         <div className="App-content">
